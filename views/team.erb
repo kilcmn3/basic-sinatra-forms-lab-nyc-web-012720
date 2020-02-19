@@ -5,7 +5,14 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+    <form action="/newteam" method="get">
+        <p>Team Name: <%= @player[:name] %></p> 
+        <p>Coach: <%= @player[:coach] %></p> 
+        <p>Point Guard: <%= @player[:pg] %></p> 
+        <p>Shooting Guard: <%= @player[:sg] %></p> 
+        <p>Power Forward: <%= @player[:pf] %></p> 
+        <p>Center: <%= @player[:c] %></p> 
+    </form>
 
 
  </body>
